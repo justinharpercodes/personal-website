@@ -1,13 +1,21 @@
 body {
-    font-family: open sans;
+  font-family: open sans;
 }
-button {
-    border-radius: 5px;
-}
+
 .container {
-    background-color: lightcyan;
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 15px;
-    padding: 10px 20px
+  background-color: lightcyan;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.picture {
+  width: 100px;
+  height: 100px;
+}
+
+.list-and-image {
+  display: flex;
+  gap: 20px;
 }
